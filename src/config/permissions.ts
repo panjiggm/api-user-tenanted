@@ -19,7 +19,7 @@ export const PERMISSIONS = ALL_PERMISSIONS.reduce(
   >
 );
 
-export const USER_ROLE = [
+export const USER_ROLE_PERMISSIONS = [
   PERMISSIONS['posts:read'],
   PERMISSIONS['posts:write'],
 ];
